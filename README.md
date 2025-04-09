@@ -1,6 +1,8 @@
 # Private Jenkins in VPC : 안전한 CI/CD 구성
 
-Public이 아닌 **Private EC2 인스턴스**에서 Jenkins를 설치하고 운영하기 위한 인프라 구조를 구성했습니다. <br>
+<br>
+
+>Public이 아닌 **Private EC2 인스턴스**에서 Jenkins를 설치하고 운영하기 위한 인프라 구조를 구성했습니다. <br>
 외부와의 직접적인 접속 없이도 GitHub Webhook 등 자동화된 작업을 수행할 수 있도록 <br> Public EC2를 활용한 **프록시 및 포워딩** 구조를 도입했습니다.
 
 <br>
